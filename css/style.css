@@ -268,11 +268,19 @@ Buttons style
 
   .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color: transparent; } }
+
 .parallax-section {
   background: url("../images/bg-1.jpg") no-repeat;
   height: 100%;
   background-size: cover;
   background-attachment: fixed; }
+
+/*---------------------------------------*/
+@media (max-width: 767px) {
+	.parallax-section {
+		background-attachment: scroll; }
+}
+/*---------------------------------------*/
 
 .parallax-inner {
   display: table;

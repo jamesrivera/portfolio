@@ -51,7 +51,9 @@ $(document).ready(function () {
         });
     });
     //parallax
-    $.stellar();
+    if ($(window).width() > 767){	
+    	$.stellar();
+    }
 
 //main text rotate
     $('.flexslider').flexslider({

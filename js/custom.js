@@ -51,6 +51,7 @@ $(document).ready(function () {
         });
     });
     //parallax
+    //--------Added if statement 4/27/16 to fix mobile parallax issue
     if ($(window).width() > 767){	
     	$.stellar();
     }

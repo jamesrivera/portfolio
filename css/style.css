@@ -337,21 +337,25 @@ Buttons style
   padding-bottom: 100px;
   background: #fff; }
   .portfolio h1 {
-	color: #666;
-}
+	color: #666; }
   .portfolio .separator {
     background-color: #ff6700; }
   .portfolio .col-sm-4 {
     padding: 0px; }
 
-.portfolio .separator {
-	background-color: ;
-}
-
 .folio-box {
   overflow: hidden;
   position: relative; 
   background: #fff; }
+  
+.folio-box .portfolio-icons {
+  font-size: 195px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 45px;
+}
 
 .folio-box .portfolio-icons a{
   -moz-transition: all 0.3s;
@@ -366,23 +370,13 @@ Buttons style
   -webkit-transform: scale(1.1);
   transform: scale(1.1); }
 
-/*----------------------*/
-.folio-box .portfolio-icons {
-	font-size: 195px;
-	display: block;
-	max-width: 100%;
-	height: auto;
-	text-align: center;
-	padding-bottom: 45px;
-}
-
 @media (max-width: 767px) {
   .folio-box .portfolio-icons {
-	padding-bottom: 60px;
+	/*padding-bottom: 60px;*/
 	font-size: 25vw;
   }
 }
-/*----------------------*/
+
 .folio-desc {
   display: block;
   position: absolute;
@@ -427,6 +421,10 @@ Buttons style
   .service-list .content h3 {
     font-size: 20px;
     text-transform: capitalize; }
+    
+.service-box {
+	float: left;
+}
 
 /**testimonials**/
 .testimonials {
